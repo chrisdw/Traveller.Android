@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/mnu_encounter_save" android:showAsAction="ifRoom|withText" android:title="Save" android:titleCondensed="Save" android:icon="@drawable/ic_menu_save"></item>
+    <item android:id="@+id/mnu_encounter_open" android:showAsAction="ifRoom|withText" android:title="Open" android:titleCondensed="Open" android:icon="@drawable/ic_menu_archive"></item>
+        
+    
+
+</menu>

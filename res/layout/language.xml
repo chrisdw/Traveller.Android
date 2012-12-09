@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/languagelistfragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        class="uk.org.downesward.traveller.LanguageListFragment" />
+
+    <fragment
+        android:id="@+id/languageconfigfragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        class="uk.org.downesward.traveller.LanguageConfigFragment" />
+
+    <fragment
+        android:id="@+id/wordlistfragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        class="uk.org.downesward.traveller.WordListFragment" />
+
+</LinearLayout>
