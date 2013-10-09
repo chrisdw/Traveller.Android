@@ -18,5 +18,7 @@
     <string name="lblWeapons">Weapons</string>
     <string name="lblWeight">Weight</string>
     <string name="lblWounds">Wounds</string>
-   
+    <string name="act_language">Languages</string>
+    <string name="act_encounter">Encounters</string>
+    
 </resources>
